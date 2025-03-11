@@ -7,14 +7,13 @@ As shown in the figure below, it is a de facto to use datasets for training, eva
 
 In Ethiopic QA, despite the existence of QA models for languages such as Amharic, Tigrinya, and Afan Oromo, only a few publicly available datasets exist (See Dataset table). Furthermore, these datasets often lack detailed information in their accompanying dataset cards and do not always provide corresponding baseline models.
 
-markdown
 | Dataset                              | Language | Publicly Available Repo | Hugging Face (HF) Data Card | Method of Creation                  | Baseline Model | Baseline Code |
 |--------------------------------------|----------|-------------------------|-----------------------------|-------------------------------------|----------------|---------------|
-| Amh-QuAD [Taffa et al., 2024]        | Amharic  | GitHub & HF             | Yes                         | Crowd-sourcing                      | Yes            | GitHub        |
-| AmaSQuAD [Hailemariam, 2025]         | Amharic  | HF                      | Yes                         | Translation                         | No             | -             |
-| Question Classification [Destaw et al., 2022] | Amharic  | HF                      | No                          | Collected from Community-based QA platform | Yes            | GitHub        |
-| TigQA [Teklehaymanot et al., 2024]   | Tigrinya | GitHub & Zenodo         | No                          | Expert curated                      | Yes            | GitHub        |
-| TiQuAD [Gaim et al., 2023]           | Tigrinya | No                      | No                          | Crowd-Sourcing & Translation        | Yes            | -             |
+| Amh-QuAD [Taffa et al., 2024](https://aclanthology.org/2024.rail-1.14.pdf)       | Amharic  | GitHub & HF             | Yes                         | Crowd-sourcing                      | Yes            | GitHub        |
+| AmaSQuAD [Hailemariam et al., 2025](https://arxiv.org/pdf/2502.02047)         | Amharic  | HF                      | Yes                         | Translation                         | No             | -             |
+| Question Classification [Destaw et al., 2022](https://aclanthology.org/2022.sigul-1.18.pdf) | Amharic  | HF                      | No                          | Collected from Community-based QA platform | Yes            | GitHub        |
+| TigQA [Teklehaymanot et al., 2024](https://aclanthology.org/2024.lrec-main.1404.pdf)   | Tigrinya | GitHub & Zenodo         | No                          | Expert curated                      | Yes            | GitHub        |
+| TiQuAD [Gaim et al., 2023](https://aclanthology.org/2023.acl-long.661.pdf)          | Tigrinya | No                      | No                          | Crowd-Sourcing & Translation        | Yes            | -             |
 
 
 ## Why Reproducibiltiy?
