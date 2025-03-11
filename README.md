@@ -1,4 +1,4 @@
-# Ensuring Reproduciblity in Low Resource Information Retrieval Task: Ethiopic Language Question Answering
+# Ensuring Reproduciblity in Ethiopic Language Question Answering
 
 ## Question Answering (QA)
 Question Answering (QA) systems answer natural language questions using specific underlying data sources. Ethiopic QA, in particular, is dedicated to responding to questions posed in Ethiopic languages, such as Amharic, Tigrinya, Afan Oromo, Somali, and others.
